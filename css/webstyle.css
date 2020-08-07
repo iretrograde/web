@@ -1,0 +1,125 @@
+@font-face
+{
+	font-family: vicecity;
+	src: url(font/vicecity.otf);
+}
+
+@font-face
+{
+	font-family: highway;
+	src: url(font/highway.ttf);
+}
+
+body
+{
+	margin: 0 0 0 0;
+}
+
+.header
+{
+	border: 1px solid black;
+	width: auto;
+	height: 230px;
+	background-color: black;
+	text-align: center;
+}
+
+.dropbtn 
+{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #AB0000;
+  cursor: pointer;
+  font-family: vicecity;
+}
+
+.dropdown 
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #AB0000;
+  min-width: 160px;
+  width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: vicecity;
+}
+
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: black;
+	color: white;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+  background-color: #AB0000;
+}
+
+.content
+{
+	background-color: white;
+	width: auto;
+}
+
+
+.konten
+{
+	background-color: white;
+	width: 100%;
+	font-family: highway;
+	text-align: center;	
+}
+
+.judul
+{
+	font-family: vicevity;
+	font-size: 30px;
+	margin: 10px;
+	margin-top: 50px;
+}
+
+.isi
+{
+	font-family: highway;
+	font-size: 18px;
+	margin: 10px;
+}
+
+.footer
+{
+	border: 1px solid #AB0000;
+	width: auto;
+	height: 100px;
+	background-color: #AB0000;
+	text-align: center;
+
+}
+
+.judulfooter
+{
+	font-size: 19px;
+}
